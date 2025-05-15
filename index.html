@@ -15,21 +15,18 @@
             color: #333;
         }
 
-        header {
-            position: relative;
-            height: 300px;
-            overflow: hidden;
-            background-color: #00b3f0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+.okta-image-banner {
+  background-color: #00b3f0;
+  padding: 60px 20px;
+  text-align: center;
+}
 
-        header img {
-            height: 100%;
-            width: auto;
-            transition: transform 0.2s ease-out;
-        }
+.okta-image-banner img {
+  max-width: 100%;
+  width: 600px; /* 또는 적절히 조정 */
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
         .intro-title {
             text-align: center;
@@ -117,9 +114,9 @@
 
 <body>
     <!-- 상단 배너 -->
-    <header>
-        <img id="heroImage" src="img/1_jpG6_3mNltYWAth-aU6ITw.png" alt="Okta Logo">
-    </header>
+    <section class="okta-image-banner">
+          <img id="heroImage" src="img/1_jpG6_3mNltYWAth-aU6ITw.png" alt="Okta Logo">
+    </section>
 
     <!-- 상단 소개 타이틀 -->
     <section class="intro-title">
