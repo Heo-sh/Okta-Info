@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Okta 소개</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.8;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h2 {
+      color: #005cbf;
+      font-size: 24px;
+      margin-top: 50px;
+      position: relative;
+    }
+    h2::before {
+      content: "🔔";
+      margin-right: 10px;
+    }
+    .section {
+      background: #fff;
+      border-left: 6px solid #005cbf;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .source {
+      font-size: 14px;
+      color: #777;
+      margin-top: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    strong {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Okta가 무엇인가요?</h2>
+  <div class="section">
+    <p>Okta는 조직 구성원이 안전하고 편리하게 업무 시스템에 접근할 수 있도록 지원하는 인증 및 접근 권한 관리(IAM) 플랫폼입니다.</p>
+    <p>단일 계정으로 여러 시스템에 로그인할 수 있는 <strong>SSO(Single Sign-On)</strong>, 보안을 강화하는 <strong>MFA(Multi-Factor Authentication)</strong> 기능을 제공합니다.</p>
+    <p>권한 관리 자동화, API 연동 등의 부가 기능으로 기밀성과 가용성을 효과적으로 보장합니다.</p>
+    <img src="https://drive.google.com/uc?export=view&id=1T9GtejIDiKs3vSFRuHFjWClYlopjxcP0">   
+  </div>
+
+  <h2>인증 및 접근권한 관리는 왜 중요한가요?</h2>
+  <div class="section">
+    <p>2024년 개인정보보호위원회의 유출 신고 동향 분석에 따르면 해킹(56%)이 주요 원인이며, 그 외 업무상 과실(30%)과 시스템 오류(7%)도 존재합니다.</p>
+    <p>해킹 원인:</p>
+    <ul>
+      <li>원인 미상 (51%)</li>
+      <li>관리자 페이지 비정상 접속 (13%)</li>
+      <li>SQL 인젝션 (10%)</li>
+      <li>악성코드 (8%)</li>
+      <li>웹 셸 (5%)</li>
+      <li>크리덴셜 스터핑 (5%)</li>
+    </ul>
+    <p>IAM으로 방지 가능한 항목은 관리자 페이지 비정상 접속과 크리덴셜 스터핑입니다.</p>
+    <div class="source">(출처: 개인정보보호위원회)</div>
+  </div>
+
+  <h2>정보유출의 영향도는 어느 정도인가요?</h2>
+  <div class="section">
+    <p>정보 유출은 국내외 법적 제재와 기업 평판에 큰 영향을 미칩니다.</p>
+    <ul>
+      <li>국내: 매출액의 최대 3% 과징금</li>
+      <li>EU: GDPR 위반 시 매출액의 4% 또는 2,000만 유로</li>
+    </ul>
+    <p>기업 신뢰도 하락, 고객 이탈 등의 실질적 피해가 발생합니다.</p>
+    <div class="source">(출처: 개정 개인정보 보호법 시행 안내)</div>
+  </div>
+
+  <h2>Okta가 어떻게 정보 유출을 막아주나요?</h2>
+  <div class="section">
+    <p>Okta는 관리자 및 사용자 계정 관리를 통해 다음과 같은 해킹 유형을 방지할 수 있습니다:</p>
+
+    <h3>✅ 관리자 계정 탈취 사례</h3>
+    <ul>
+      <li><strong>2023 골프존</strong>: 221만 명 개인정보 유출, VPN 관리자 계정 탈취 → 과징금 75억 원</li>
+      <li><strong>2023 LG유플러스</strong>: 30만 건 유출, 초기 비밀번호 'admin' 사용 → 과징금 68억 원</li>
+    </ul>
+
+    <h3>✅ 사용자 계정 탈취 사례</h3>
+    <ul>
+      <li><strong>2022~2023 섹타나인</strong>: 1.7만 건 유출, 크리덴셜 스터핑 → 과징금 14억 7천만 원</li>
+      <li><strong>2024~2025 GS리테일</strong>: 158만 건 유출, 크리덴셜 스터핑</li>
+    </ul>
+
+    <div class="source">(출처: 개인정보보호위원회 공식 발표자료)</div>
+  </div>
+
+</body>
+</html>
